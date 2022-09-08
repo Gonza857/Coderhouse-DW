@@ -1,0 +1,52 @@
+.footer {
+    background-image: linear-gradient(to left, #477373,#93bfb7);
+}
+.footerTitles {
+    font-family: $mainFont;
+    color: #000;
+    font-size: 1.4rem;
+    @media (min-width:1200px) {
+        font-size: 1.8rem;
+    }
+}
+.footerData {
+    font-family: $mainFont;
+    color: #000;
+    padding: 5px 0px;
+    @media (min-width:1200px) {
+        font-size: 1.1rem;
+    }
+}
+.footerLinks {
+    text-decoration: none;
+    font-family: $mainFont;
+    color: #000;
+    padding: 5px 0px;
+    @media (min-width:1200px) {
+        font-size: 1.1rem;
+    }
+    &:hover {
+        color: #000;
+        text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
+        transition: all .3s;
+    }
+}
+.socialIcon {
+    &:hover {
+        text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
+        transition: all .3s !important;
+    }
+    @media (min-width:1200px) {
+        font-size: 1.8rem;
+    }
+}
+.footerCredits {
+    font-family: $mainFont;
+}
+.border-topMod {
+    width: 70%;
+    padding-bottom: 20px;
+    margin: auto;
+    border-top: 1px solid #477373 !important;
+}
+

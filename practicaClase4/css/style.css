@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 50%;
+}
+
+div p {
+    color: #0033ff;
+    font-family: "Bebas Neue";
+    line-height: 15px;
+    font-size: 12px;
+}
+
